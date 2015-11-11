@@ -3,6 +3,9 @@
 ## Zs Installation
 ln ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
+### For large git repo, prevent zsh from running slow
+git config --add oh-my-zsh.hide-status 1
+
 ----
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](http://www.zsh.org/) configuration. That sounds boring. Let's try this again.
