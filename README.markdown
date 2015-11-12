@@ -1,10 +1,23 @@
 ![Oh My Zsh](https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png)
 
 ## Zs Installation
-ln ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
-### For large git repo, prevent zsh from running slow
+```shell
+ln ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+```
+
+#### For large git repo, prevent zsh from running slow
+
+```shell
 git config --add oh-my-zsh.hide-status 1
+```
+
+#### To make zsh default, add this in ~/.bash_profile or whatever
+
+```shell
+export SHELL=/bin/zsh
+exec /bin/zsh -l
+```
 
 ----
 
