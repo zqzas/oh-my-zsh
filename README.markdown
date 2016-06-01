@@ -16,6 +16,7 @@ git config --add oh-my-zsh.hide-status 1
 
 ```shell
 export SHELL=/bin/zsh
+[ -z "$PS1" ] && return
 exec /bin/zsh -l
 ```
 
