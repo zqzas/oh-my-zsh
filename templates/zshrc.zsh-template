@@ -84,5 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cs="cscope -R"
 alias work="cd ~/co/router"
+alias gg="git grep"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
